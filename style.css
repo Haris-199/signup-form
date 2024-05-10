@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("assets/Norse-Bold.otf");
+}
+
+p {
+    font-family: Norse-Bold;
+    font-size: 100px;
+}
