@@ -45,13 +45,16 @@ div.sidebar > p {
 }
 
 div.logo {
+    width: 100%;
     margin-top: 33%;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
 }
 
 div.logo > a {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     font-family: Norse-Bold;
