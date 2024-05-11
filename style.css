@@ -2,3 +2,38 @@
     font-family: Norse-Bold;
     src: url("assets/Norse-Bold.otf");
 }
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+img[src="assets/logo.png"] {
+    width: 100px;
+    height: 100px;
+}
+
+div.sidebar {
+    flex: 1 1 auto;    
+}
+
+
+div.logo > a > *{
+    display: inline-block;
+}
+
+div.logo > a {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+div.content {
+    flex: 1 1 auto;
+    background-color: #eee;
+}
