@@ -44,7 +44,6 @@ div.sidebar {
 
 a { 
     color: white;
-    text-decoration: none;
 }
 
 div.sidebar > p {
@@ -69,6 +68,7 @@ div.logo > a {
     align-items: center;
     font-family: Norse-Bold;
     font-size: 30px;    
+    text-decoration: none;
 }
 
 div.content {
