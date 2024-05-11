@@ -13,10 +13,10 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #ccc;
-    --border-rad: 20px;
 }
 
 body {
+    --border-rad: 20px;
     border-radius: var(--border-rad);
     height: 95%;
     display: flex;
@@ -40,7 +40,6 @@ div.sidebar {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    /* box-shadow: -5px 0 5px 1px #111; */
 }
 
 a { 
@@ -78,7 +77,6 @@ div.content {
     max-width: 800px;
     background-color: #eee;
     padding-left: 40px;
-    /* box-shadow: 5px 0 5px 1px #111; */
 }
 
 p.description {
@@ -143,6 +141,11 @@ input:focus {
     border: 2px solid #1e6a7b;
     margin: 0 -1px;
     box-shadow: 2px 2px 6px 2px #ccc;
+    transition: all 0.25s ease-in-out;
+}
+
+input[type="email"]:invalid {
+    border: 2px solid red;
     transition: all 0.25s ease-in-out;
 }
 
