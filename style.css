@@ -14,6 +14,7 @@ body {
 
 body {
     display: flex;
+    justify-content: center;
     margin: 0;
 }
 
@@ -62,4 +63,78 @@ div.logo > a {
 div.content {
     width: 100%;
     background-color: #eee;
+    padding-left: 40px;
+}
+
+p.description {
+    font-weight: 550;
+}
+
+p.description:first-child {
+    margin-top: 100px;
+}
+
+div.signup-info {
+    display: flex;
+    gap: 10%;
+    padding: 0 0 20px 40px;
+}
+
+form > div {
+    margin-left: -40px;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+    box-shadow: 0 5px 4px grey;
+}
+
+form > div > p {
+    padding-left: 40px;
+    font-weight: 550;
+}
+
+div.form-column {
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+label {
+    align-self: flex-start;
+    font-size: small;
+    color: #222;
+}
+
+input + label {
+    margin-top: 20px;
+}
+
+input {
+    height: 25px;
+    font-size: medium;
+}
+
+button {
+    background-image: linear-gradient(135deg, #1e6a7b, #811a17);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-image: linear-gradient(135deg, #478593, #984441);
+}
+
+.log-in {
+    color: #1e6a7b;
+    text-decoration: none;
 }
